@@ -51,7 +51,7 @@ console.log(lastOrders);
 
 let popularTeas = ["green tea", "oolong tea", "chai"];
 let softCopyTeas = popularTeas;
-popularTeas.pop();
+console.log(`${softCopyTeas}  copied-Teas`)
 // console.log(softCopyTeas);
 // console.log(popularTeas);
 
