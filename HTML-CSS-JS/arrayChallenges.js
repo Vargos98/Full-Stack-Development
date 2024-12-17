@@ -111,7 +111,11 @@ while(i<=n){
 }
 
 console.log(sum);
+// //////////////////////////////////////////////////////////////////
 
+
+
+//  Question enters number in an empty array till condition is met
 const bucket = [];
 let j=5;
 let x=0;
@@ -123,3 +127,22 @@ while(j>x)
 }
 
 console.log(bucket);
+
+
+//  Write a 'do while loop' that promts user to enter their favorite tea type until they 
+// enter 'stop'. Store each tea type in an array named 'teaCollections'.
+
+const teaCollections =[];
+let tea;
+do {
+   prompt(`enter your favorite tea type (type "stop" to finish) `)
+   if(tea !== "stop" ){
+      teaCollections.push(tea);
+   }
+   
+
+}
+while(tea !== stop){
+
+   console.log(teaCollections);
+}
