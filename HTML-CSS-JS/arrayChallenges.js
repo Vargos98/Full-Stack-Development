@@ -94,6 +94,32 @@
 // const isLondonInList = cityBucketList.includes("London");
 // console.log(isLondonInList);
 
+// 
 
 
+// LOOP:::::::::::::::;
 
+// WHile loop to sum till a number
+
+let n = 5;
+let sum = 0;
+let i =0;
+
+while(i<=n){
+   sum+=i;
+   i++;
+}
+
+console.log(sum);
+
+const bucket = [];
+let j=5;
+let x=0;
+
+while(j>x)
+{
+   bucket.push(j);
+   j--;
+}
+
+console.log(bucket);
