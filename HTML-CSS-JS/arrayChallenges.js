@@ -84,7 +84,8 @@ console.log(worldCities);
 
 let teaMenu = ["Masala chai", "oolong tea", "green tea", "earl grey"];
 
-let menuLength = teaMenu.length;
+const length = teaMenu.length;
+console.log(length)
 
 /* 
 10. You have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`. 
