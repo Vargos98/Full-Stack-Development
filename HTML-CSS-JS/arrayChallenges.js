@@ -132,17 +132,29 @@ console.log(bucket);
 //  Write a 'do while loop' that promts user to enter their favorite tea type until they 
 // enter 'stop'. Store each tea type in an array named 'teaCollections'.
 
-const teaCollections =[];
-let tea;
-do {
-   prompt(`enter your favorite tea type (type "stop" to finish) `)
-   if(tea !== "stop" ){
-      teaCollections.push(tea);
-   }
+// const teaCollections =[];
+// let tea;
+// do {
+//    prompt(`enter your favorite tea type (type "stop" to finish) `)
+//    if(tea !== "stop" ){
+//       teaCollections.push(tea);
+//    }
    
 
-}
-while(tea !== stop){
+// }
+// while(tea !== stop){
 
-   console.log(teaCollections);
+//    console.log(teaCollections);
+// }
+
+
+
+// you have an array of numbers and you have to multiple it by 2 and push it into a new array
+
+let multiArra = [];
+let arr = [1,2,3,4];
+
+for(let l = 0; l < arr.length; l++){
+   multiArra.push(arr[l]*2);
 }
+console.log(multiArra)
