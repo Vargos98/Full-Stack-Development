@@ -188,14 +188,27 @@ console.log(traveledCities);
    Skip the value `7` and multiply the rest by 2. Store the results in a new array named `doubledNumbers`.
 */
 
-let myNumbers = [2, 5, 7, 9];
+let myNumbers= [2,5,7,9];
 let doubledNumbers = [];
-for (let i = 0; i < myNumbers.length; i++) {
-  if (numbers[i] === 7) {
+
+for(let i=0;i<myNumbers.length;i++){
+  if(myNumbers[i]=== 7){
     continue;
   }
-  doubledNumbers.push(numbers[i] * 2);
+  doubledNumbers.push(myNumbers[i]*2);
 }
+
+console.log(doubledNumbers);
+
+
+// let myNumbers = [2, 5, 7, 9];
+// let doubledNumbers = [];
+// for (let i = 0; i < myNumbers.length; i++) {
+//   if (numbers[i] === 7) {
+//     continue;
+//   }
+//   doubledNumbers.push(numbers[i] * 2);
+// }
 
 /* 
 10. Use a `for-of` loop to iterate through the array `["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]` 
