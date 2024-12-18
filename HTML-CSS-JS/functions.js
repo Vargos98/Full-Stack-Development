@@ -15,6 +15,17 @@ let teaOrder = makeTea("lemon tea");
 Call `confirmOrder` from within `orderTea` and return the result.
 */
 
+// function orderTea(teaType){
+//   return confirmOrder(){
+//     return `Order prepared for ${teaType} `
+//   }
+//   return confirmOrder()
+// }
+
+// let orderConfirmation = orderTea("chai");
+// console.log(orderConfirmation)
+
+
 function orderTea(teaType) {
   function confirmOrder() {
     return `Order confirmed for chai`;
@@ -23,7 +34,7 @@ function orderTea(teaType) {
 }
 
 let orderConfirmation = orderTea("chai");
-// console.log(orderConfirmation);
+console.log(orderConfirmation);
 
 /* 
 3. Write an arrow function named `calculateTotal` that takes two parameters: `price` and `quantity`. The function should return the total cost by multiplying the `price` and `quantity`. 
